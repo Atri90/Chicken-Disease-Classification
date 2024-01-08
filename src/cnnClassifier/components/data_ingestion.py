@@ -3,8 +3,9 @@ import urllib.request as request
 import zipfile
 from cnnClassifier import logger
 from cnnClassifier.utils.common import get_size
-from pathlib import Path
 from cnnClassifier.entity.config_entity import DataIngestionConfig
+from pathlib import Path
+
 
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
